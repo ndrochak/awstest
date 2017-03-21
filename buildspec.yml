@@ -22,5 +22,5 @@ phases:
       - echo $CODEBUILD_SRC_DIR
 artifacts:
   files:
-      - 'buildspec.yml'
+    - 'buildspec.yml'
   discard-paths: no
