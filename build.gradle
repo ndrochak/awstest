@@ -12,6 +12,7 @@ dependencies {
 }
 
 task buildZip(type: Zip) {
+    baseName = 'awsfun'
     from compileJava
     from processResources
     into('lib') {
