@@ -15,7 +15,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Run Maven and whatnot
-      - ./gradlew build
+      - sh gradlew build
   post_build:
     commands:
       - echo Build completed on `date`
