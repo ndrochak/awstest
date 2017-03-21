@@ -13,9 +13,9 @@ phases:
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
-      - echo Build started on `date`
-      - echo Run Maven and whatnot
-      - sh gradlew build
+      - echo Running the build!
+      - chmod +x gradlew
+      - ./gradlew build
   post_build:
     commands:
       - echo Build completed on `date`
