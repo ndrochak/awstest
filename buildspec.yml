@@ -9,3 +9,4 @@ phases:
 artifacts:
   files:
     - build/distributions/awsfun.zip
+  discard-paths: yes
