@@ -18,7 +18,6 @@ task buildZip(type: Zip) {
     into('lib') {
         from configurations.runtime
     }
-    from 'samTemplate.yaml'
 }
 
 build.dependsOn buildZip

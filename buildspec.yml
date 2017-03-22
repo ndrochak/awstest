@@ -9,4 +9,5 @@ phases:
 artifacts:
   files:
     - build/distributions/awsfun.zip
+    - samTemplate.yaml
   discard-paths: yes
